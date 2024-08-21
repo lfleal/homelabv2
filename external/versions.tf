@@ -6,7 +6,7 @@ terraform {
     organization = "gopherlou-lab"
 
     workspaces {
-      name = "homelab-external"
+      name = "homelab-v2"
     }
   }
 
