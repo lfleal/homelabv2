@@ -19,7 +19,7 @@ app-template:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host home.khuedoan.com
+        - host: &host home.gopherlab.win
           paths:
             - path: /
               pathType: Prefix
@@ -61,76 +61,76 @@ app-template:
         services.yaml: |
           - Popular:
             - Matrix:
-                href: https://chat.khuedoan.com
+                href: https://chat.gopherlab.win
                 description: Chat client
                 icon: element.svg
             - Jellyfin:
-                href: https://jellyfin.khuedoan.com
+                href: https://jellyfin.gopherlab.win
                 description: Media system (movies, music, etc.)
                 icon: jellyfin.svg
             - Jellyseerr:
-                href: https://jellyseerr.khuedoan.com
+                href: https://jellyseerr.gopherlab.win
                 description: Request media
                 icon: jellyseerr.svg
             - Paperless:
-                href: https://paperless.khuedoan.com
+                href: https://paperless.gopherlab.win
                 description: Document management system
                 icon: paperless.svg
           - Management:
             - Transmission:
-                href: https://transmission.khuedoan.com
+                href: https://transmission.gopherlab.win
                 description: Bittorrent client
                 icon: transmission.svg
             - Prowlarr:
-                href: https://prowlarr.khuedoan.com
+                href: https://prowlarr.gopherlab.win
                 description: Indexer manager
                 icon: prowlarr.svg
             - Radarr:
-                href: https://radarr.khuedoan.com
+                href: https://radarr.gopherlab.win
                 description: Movie manager
                 icon: radarr.svg
             - Sonarr:
-                href: https://sonarr.khuedoan.com
+                href: https://sonarr.gopherlab.win
                 description: TV show manager
                 icon: sonarr.svg
             - Kanidm:
-                href: https://auth.khuedoan.com
+                href: https://auth.gopherlab.win
                 description: Identity management
-                icon: https://auth.khuedoan.com/pkg/img/logo-square.svg
+                icon: https://auth.gopherlab.win/pkg/img/logo-square.svg
           - Development:
             - Gitea:
-                href: https://git.khuedoan.com
+                href: https://git.gopherlab.win
                 description: Git forge
                 icon: gitea.svg
             - Woodpecker:
-                href: https://ci.khuedoan.com
+                href: https://ci.gopherlab.win
                 description: Continuous integration
                 icon: woodpecker-ci.svg
             - ArgoCD:
-                href: https://argocd.khuedoan.com
+                href: https://argocd.gopherlab.win
                 description: Continuous deployment
                 icon: argocd.svg
             - Registry:
-                href: https://registry.khuedoan.com
+                href: https://registry.gopherlab.win
                 description: Container registry
                 icon: docker.svg
             - Grafana:
-                href: https://grafana.khuedoan.com
+                href: https://grafana.gopherlab.win
                 description: Observability dashboards
                 icon: grafana.svg
           - Utilities:
             - Excalidraw:
-                href: https://draw.khuedoan.com
+                href: https://draw.gopherlab.win
                 description: Virtual whiteboard
                 icon: excalidraw.svg
             - Speedtest:
-                href: https://speedtest.khuedoan.com
+                href: https://speedtest.gopherlab.win
                 description: Internal network speed test
                 icon: openspeedtest.png
         bookmarks.yaml: |
           - Homelab:
             - Documentation:
-              - href: https://homelab.khuedoan.com
+              - href: https://homelab.gopherlab.win
                 icon: google-docs.svg
             - Public homelab repository:
               - href: https://github.com/khuedoan/homelab
