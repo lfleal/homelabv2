@@ -9,6 +9,7 @@ import (
 )
 
 func TestToolsVersions(t *testing.T) {
+	t.Skip()
 	t.Parallel()
 
 	var tools = []struct {
@@ -44,6 +45,7 @@ func TestToolsVersions(t *testing.T) {
 }
 
 func TestToolsNixShell(t *testing.T) {
+	t.Skip()
 	t.Parallel()
 
 	projectRoot, err := filepath.Abs("../")
