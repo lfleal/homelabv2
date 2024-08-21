@@ -1,9 +1,9 @@
 terraform {
-  required_version = "~> 1.6.0"
+  required_version = "~> 1.9.4"
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "gopherlou-lab""
+    organization = "gopherlou-lab"
 
     workspaces {
       name = "homelab-external"
