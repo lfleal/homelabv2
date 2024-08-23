@@ -133,7 +133,7 @@ app-template:
               - href: https://homelab.gopherlab.win
                 icon: google-docs.svg
             - Public homelab repository:
-              - href: https://github.com/khuedoan/homelab
+              - href: https://github.com/lfleal/homelabv2
                 icon: github.svg
           - Managed services:
             - Cloudflare:
@@ -144,14 +144,6 @@ app-template:
                 icon: terraform.svg
           - Infrastructure:
             - Router:
-              - href: https://192.168.1.1
+              - href: https://192.168.5.1
                 icon: router.svg
-            - Proxmox:
-              - href: https://proxmox:8006
-                icon: proxmox.svg
-            - Google Cloud:
-              - href: https://console.cloud.google.com
-                icon: google-cloud-platform.svg
-            - Oracle Cloud:
-              - href: https://cloud.oracle.com
-                icon: oracle-cloud.svg
+
