@@ -144,6 +144,6 @@ app-template:
                 icon: terraform.svg
           - Infrastructure:
             - Router:
-              - href: https://192.168.5.1
+              - href: http://192.168.5.1
                 icon: router.svg
 
