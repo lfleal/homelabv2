@@ -24,6 +24,7 @@ smoke-test:
 	make -C test filter=Smoke
 
 post-install:
+        kubectl apply -f ./scripts/kanidm_fix.yaml
 	@./scripts/hacks
 
 tools:
