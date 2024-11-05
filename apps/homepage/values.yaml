@@ -64,10 +64,6 @@ app-template:
                 href: https://chat.gopherlab.win
                 description: Chat client
                 icon: element.svg
-            - Jellyfin:
-                href: https://jellyfin.gopherlab.win
-                description: Media system (movies, music, etc.)
-                icon: jellyfin.svg
             - Jellyseerr:
                 href: https://jellyseerr.gopherlab.win
                 description: Request media
@@ -77,22 +73,10 @@ app-template:
                 description: Document management system
                 icon: paperless.svg
           - Management:
-            - Transmission:
-                href: https://transmission.gopherlab.win
-                description: Bittorrent client
-                icon: transmission.svg
             - Prowlarr:
                 href: https://prowlarr.gopherlab.win
                 description: Indexer manager
                 icon: prowlarr.svg
-            - Radarr:
-                href: https://radarr.gopherlab.win
-                description: Movie manager
-                icon: radarr.svg
-            - Sonarr:
-                href: https://sonarr.gopherlab.win
-                description: TV show manager
-                icon: sonarr.svg
             - Kanidm:
                 href: https://auth.gopherlab.win
                 description: Identity management
