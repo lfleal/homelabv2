@@ -64,19 +64,11 @@ app-template:
                 href: https://chat.gopherlab.win
                 description: Chat client
                 icon: element.svg
-            - Jellyseerr:
-                href: https://jellyseerr.gopherlab.win
-                description: Request media
-                icon: jellyseerr.svg
             - Paperless:
                 href: https://paperless.gopherlab.win
                 description: Document management system
                 icon: paperless.svg
           - Management:
-            - Prowlarr:
-                href: https://prowlarr.gopherlab.win
-                description: Indexer manager
-                icon: prowlarr.svg
             - Kanidm:
                 href: https://auth.gopherlab.win
                 description: Identity management
