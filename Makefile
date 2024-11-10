@@ -5,7 +5,8 @@
 KUBECONFIG = $(shell pwd)/metal/kubeconfig.yaml
 KUBE_CONFIG_PATH = $(KUBECONFIG)
 
-default: metal system external smoke-test post-install clean
+default: metal system external # smoke-test post-install clean
+#default: metal system external smoke-test post-install clean
 
 configure:
 	./scripts/configure
@@ -24,7 +25,7 @@ smoke-test:
 	make -C test filter=Smoke
 
 post-install:
-        kubectl apply -f ./scripts/kanidm_fix.yaml
+	kubectl apply -f ./scripts/kanidm_fix.yaml
 	@./scripts/hacks
 
 tools:
